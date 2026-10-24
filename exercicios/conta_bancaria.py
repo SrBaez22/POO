@@ -16,11 +16,11 @@ class ContaBancaria:
             print("valor insuficiente")
         else:
             self.saldo -= valor
-            return print(f"voce retirou {valor} da sua conta")
+            return valor
 
     def consultar_saldo(self):
         print(f"Titular: {self.titular}")
-        return print(f"voce possui {self.saldo} de saldo")
+        return self.saldo
         
 
         
